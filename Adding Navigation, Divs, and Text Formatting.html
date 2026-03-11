@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rooms and More</title>
+    <style>
+        /* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #196394d2;
+    line-height: 2;
+}
+/* Navigation Styling */
+.nav-container {
+    background-color: #1d6102;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.main-nav a {
+    color: rgb(185, 241, 234);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease;
+}
+
+.main-nav a:hover {
+    color: #ffd700;
+}
+/* Header Styling */
+.header {
+    text-align: center;
+    padding: 3rem 1rem;
+    background-color: #018f08;
+    margin-bottom: 2rem;
+}
+
+.header h1 {
+    color: #970707;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-family: sans-serif;
+}
+
+.subtitle {
+    color: #970707;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
+
+/* Main Content Styling */
+.main-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.about-section, .services-section, .contact-section {
+    background-color: rgb(168, 124, 155);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #b11f1f;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
+
+/* Text Formatting */
+.highlight {
+    background-color: #ffd700;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+}
+
+em {
+    color: #ad1818;
+    font-style: italic;
+}
+
+.email {
+    color: #0066cc;
+    font-weight: bold;
+}
+
+/* Footer Styling */
+.footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: #333;
+    color: white;
+    margin-top: 2rem;
+}
+
+    </style>
+</head>
+<body>
+    <!-- Navigation Section -->
+    <div class="nav-container">
+        <nav class="main-nav">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="rooms.html">Rooms</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- Header Section -->
+    <div class="header">
+        <h1>Welcome to Rooms and More</h1>
+        <p class="subtitle"><em>Comfort is our priority</em></p>
+    </div>
+    <!-- Main Content Section -->
+    <div class="main-content">
+        <div class="room-section" id="rooms">
+            <h2>About Us</h2>
+            <p>At Rooms and More, we offer a variety of comfortable and stylish rooms to suit your needs.
+                <span style="font-size: 1.2em;">Whether you're looking for a cozy single room or a spacious suite, we have something for everyone.</span>
+                Our dedicated staff is here to ensure you have a pleasant stay.</p>
+        </div>
+        <div class="services-section" id="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li><span class="highlight">24/7 Room Service</span></li>
+                <li><span class="highlight">Free Wi-Fi</span></li>
+                <li><em>Complimentary Breakfast</em></li>
+                <li><strong>Fitness Center Access</strong></li>
+                <li><strong>Spa and Wellness Treatments</strong></li>
+            </ul>
+        </div>
+        <div class="contact-section" id="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or would like to make a reservation, please don't hesitate to Contact us:
+                <br>Email: <span class="email">contact@roomsandmore.com</span>
+            </p>
+        </div>
+    </div>
+    <!-- Footer Section -->
+    <div class+="footer">
+        <p>&copy; 2024 Rooms and More. All rights reserved.</p>
+    </div>
+</body>
+</html>
